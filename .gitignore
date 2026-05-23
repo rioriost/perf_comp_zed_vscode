@@ -1,0 +1,7 @@
+fixtures/
+results/
+tmp/
+editors.local.json
+*.tmp
+__pycache__/
+.DS_Store

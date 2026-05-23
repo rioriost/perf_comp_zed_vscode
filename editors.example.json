@@ -1,0 +1,27 @@
+{
+  "editors": [
+    {
+      "label": "zed",
+      "enabled": true,
+      "app_name": "Zed",
+      "bundle_id": "dev.zed.Zed",
+      "process_name": "Zed",
+      "process_regex": "Zed\\.app|/Zed(?: |$)|\\bZed\\b",
+      "extra_args": []
+    },
+    {
+      "label": "vscode",
+      "enabled": true,
+      "app_name": "Visual Studio Code",
+      "bundle_id": "com.microsoft.VSCode",
+      "process_name": "Code",
+      "process_regex": "Visual Studio Code\\.app|/Code Helper|/Electron|\\bCode\\b",
+      "target_arg_mode": "app_args",
+      "extra_args": [
+        "--disable-extensions",
+        "--disable-workspace-trust",
+        "--new-window"
+      ]
+    }
+  ]
+}
